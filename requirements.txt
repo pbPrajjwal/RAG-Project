@@ -5,6 +5,7 @@ Pillow
 langchain
 langchain-core
 langchain-community
+langchain-classic
 langchain-text-splitters
 langchain-huggingface
 langchain-openai

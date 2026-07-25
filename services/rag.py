@@ -1,5 +1,5 @@
-from langchain.chains import ConversationalRetrievalChain
-from langchain.memory import ConversationBufferMemory
+from langchain_classic.chains import ConversationalRetrievalChain
+from langchain_classic.memory import ConversationBufferMemory
 
 from services.llm import get_llm
 
@@ -9,6 +9,8 @@ def create_rag_chain(vector_store):
         search_kwargs={"k": 3}
     )
 
+    llm = get_llm()
+
     memory = ConversationBufferMemory(
         memory_key="chat_history",
         return_messages=True,
@@ -16,7 +18,7 @@ def create_rag_chain(vector_store):
     )
 
     qa_chain = ConversationalRetrievalChain.from_llm(
-        llm=get_llm(),
+        llm=llm,
         retriever=retriever,
         memory=memory,
         return_source_documents=True
