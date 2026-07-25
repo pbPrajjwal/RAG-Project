@@ -1,12 +1,12 @@
 streamlit>=1.40.0
-
-pypdf>=4.2.0
-Pillow>=10.0.0
+pypdf
+Pillow
 
 langchain
-langchain-community
 langchain-core
+langchain-community
 langchain-text-splitters
+langchain-huggingface
 langchain-openai
 
 faiss-cpu
@@ -17,6 +17,4 @@ torch
 accelerate
 
 tiktoken
-
 python-dotenv
-openai
