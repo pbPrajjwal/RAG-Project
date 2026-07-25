@@ -19,3 +19,5 @@ accelerate
 
 tiktoken
 python-dotenv
+
+pytesseract
