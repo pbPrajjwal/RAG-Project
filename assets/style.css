@@ -1,0 +1,149 @@
+/* Main background */
+.stApp {
+  background: #0b1120;
+  color: white;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+  background: #111827;
+  border-right: 1px solid #1f2937;
+}
+
+/* Title */
+.main-title {
+  font-size: 42px;
+  font-weight: 800;
+  background: linear-gradient(90deg, #38bdf8, #818cf8);
+  -webkit-background-clip: text;
+  color: transparent;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Subtitle */
+.subtitle {
+  text-align: center;
+  color: #94a3b8;
+  font-size: 18px;
+}
+
+/* Upload card */
+
+.upload-box {
+  background: rgba(255, 255, 255, 0.05);
+
+  border-radius: 20px;
+
+  padding: 25px;
+
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  margin-bottom: 20px;
+}
+
+/* Chat container */
+
+.chat-container {
+  background: rgba(255, 255, 255, 0.05);
+
+  border-radius: 20px;
+
+  padding: 20px;
+}
+
+/* User message */
+
+.user-msg {
+  background: #2563eb;
+
+  padding: 15px;
+
+  border-radius: 18px 18px 0 18px;
+
+  margin: 10px 0;
+
+  margin-left: 20%;
+}
+
+/* Bot message */
+
+.bot-msg {
+  background: #1e293b;
+
+  padding: 15px;
+
+  border-radius: 18px 18px 18px 0;
+
+  margin: 10px 0;
+
+  margin-right: 20%;
+}
+
+/* Buttons */
+
+.stButton button {
+  width: 100%;
+
+  background: linear-gradient(90deg, #2563eb, #7c3aed);
+
+  color: white;
+
+  border: none;
+
+  border-radius: 12px;
+
+  padding: 12px;
+
+  font-weight: 600;
+}
+
+.stButton button:hover {
+  transform: scale(1.02);
+}
+
+/* File uploader */
+
+[data-testid="stFileUploader"] {
+  background: #111827;
+
+  border-radius: 15px;
+
+  padding: 10px;
+}
+
+/* Source Cards */
+
+.source-card {
+  background: rgba(255, 255, 255, 0.06);
+
+  border: 1px solid rgba(255, 255, 255, 0.12);
+
+  padding: 15px;
+
+  border-radius: 16px;
+
+  margin-bottom: 15px;
+}
+
+.source-card h4 {
+  margin-top: 0;
+
+  color: #38bdf8;
+}
+
+.source-card p {
+  color: #cbd5e1;
+
+  font-size: 14px;
+}
+
+.upload-box h3 {
+  color: #38bdf8;
+}
+
+.upload-box p {
+  color: #cbd5e1;
+
+  margin: 5px;
+}
